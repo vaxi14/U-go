@@ -47,11 +47,11 @@ function CaptainLogin() {
         >Login</button>
         
       </form>
-      <p className='text-center'>Join a fleet?<Link to='/signup' className='text-blue-600'>Register as a Captain</Link></p>
+      <p className='text-center'>Join a fleet?<Link to='/captain-signup' className='text-blue-600'>Register as a Captain</Link></p>
       </div>
 
       <div>
-        <Link to='/captain-login' className='bg-[#8EC5FF] flex items-center justify-center text-white font-semibold mb-7 rounded px-4 py-2 border w-full text-lg placeholder:text-base'>Sign in as User</Link>
+        <Link to='/login' className='bg-[#8EC5FF] flex items-center justify-center text-white font-semibold mb-7 rounded px-4 py-2 border w-full text-lg placeholder:text-base'>Sign in as User</Link>
       </div>
     </div>
   )
