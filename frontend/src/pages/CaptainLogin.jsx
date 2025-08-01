@@ -51,7 +51,9 @@ function CaptainLogin() {
       </div>
 
       <div>
-        <Link to='/login' className='bg-[#8EC5FF] flex items-center justify-center text-white font-semibold mb-7 rounded px-4 py-2 border w-full text-lg placeholder:text-base'>Sign in as User</Link>
+        <Link to='/login' 
+        className='bg-[#8EC5FF] flex items-center justify-center text-white font-semibold mb-7 rounded px-4 py-2 border w-full text-lg placeholder:text-base'
+        >Sign in as User</Link>
       </div>
     </div>
   )
