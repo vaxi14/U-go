@@ -13,7 +13,7 @@ function CaptainSignup() {
     const submitHandler = (e) => {
       e.preventDefault();
       const newUser = {
-        username: {
+        fullname: {
           firstName: firstName,
           lastName: lastName
         },
