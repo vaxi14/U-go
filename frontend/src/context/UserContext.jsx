@@ -1,10 +1,10 @@
 import React, { createContext, useState } from 'react'
 
-// eslint-disable-next-line react-refresh/only-export-components
+
 export const UserDataContext = createContext()
 
 const UserContext = ({ children }) => {
-    const [user, setuser] = useState({
+    const [user, setUser] = useState({
         email: '',
         fullname: {
             firstName: '',
@@ -12,9 +12,11 @@ const UserContext = ({ children }) => {
         }
     })
     return (
-        <UserDataContext.Provider value={{ user, setuser }}>
+        <div>
+            <UserDataContext.Provider value={{ user, setUser }}>
             {children}
         </UserDataContext.Provider>
+        </div>
     )
 }
 
